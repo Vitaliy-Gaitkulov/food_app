@@ -1,0 +1,80 @@
+ .section-download{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: url(../image/section_download/Rectangle\ 47.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   margin-top: 150px;
+ }
+
+ .download-h2{
+   font-size: 2.5em;
+   font-family: 'Montserrat-Bold';
+   padding-top: 140px;
+   line-height: 1.2;
+ }
+
+ .download-p{
+  margin-top: 35px;
+  line-height: 1.2;
+ }
+
+ .download-wraper-buttons{
+   display: flex;
+   justify-content: center;
+   margin-top: 75px;
+   margin-bottom: 150px;
+ }
+
+ .button-dl{
+  padding: 16px 35px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 8px;
+  background: #F84A0C;
+}
+
+.button-dl:nth-last-child(1){
+  background: none;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 576px){
+  .section-download{
+    background: #252B42;
+    color: white;
+    text-align: center;
+    margin-top: 110px;
+  }
+ 
+  .download-h2{
+    margin: 0 30px;
+    padding-top: 120px;
+  }
+ 
+  .download-p{
+    color: #BDBDBD;
+    margin: 10px 40px;
+    padding: 10px;
+  }
+ 
+  .download-wraper-buttons{
+    margin-top: 50px;
+    margin-bottom: 110px;
+  }
+ 
+  .button-dl{
+   padding: 16px 35px;
+   border-radius: 10px;
+   text-align: center;
+   background: #F84A0C;
+ }
+ 
+ .button-dl:nth-last-child(1){
+   background: none;
+   border: 1px solid white;
+ }
+}
