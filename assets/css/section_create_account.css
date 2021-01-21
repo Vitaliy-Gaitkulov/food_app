@@ -38,7 +38,7 @@
   max-width: 480px;
   flex-direction: column;
   justify-content: center;
-  padding-left: 200px;
+  padding-left: 150px;
   padding-top: 100px;
 }
 
@@ -75,6 +75,14 @@
   line-height: 1.2;
   padding: 10px 0;
   color: #737373;
+}
+
+@media screen and (max-width: 769px){
+  .text-wrapper-ca{
+    min-width: 300px;
+    padding-left: 50px;
+    padding-top: 0;
+  }
 }
 
 @media screen and (max-width: 576px){

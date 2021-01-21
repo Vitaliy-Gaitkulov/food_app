@@ -50,6 +50,7 @@
   margin: 0 17px;
   background: #F84A0C;
   color: white;
+  text-decoration: none;
 }
 
 .button:nth-last-child(1){
